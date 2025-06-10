@@ -72,7 +72,7 @@ The data used is publicly available from the study ***"The use of broad vs restr
 **<ins>V_B</ins>** = Visual B region that includes  middle occipital gyrus. 
 
 
-#### Relevant brain areas for all subjects according to the SHAP technique 
+### Relevant brain areas for all subjects according to the SHAP technique 
 
 ##### SVM 
 
