@@ -1,6 +1,6 @@
 # Spatial and Temporal Analysis of the fNIRS-based Decoding Models for Speech Perception using SHAP
 
-## Abtsract 
+## Abstract
 
 Speech decoding extracts speech information from neural activity. Previous studies have demonstrated that functional near-infrared spectroscopy (fNIRS) contains information suitable for language decoding. However, the interpretability of speech decoders remains unexplored. This study aims to identify the relevant brain regions and time points that enable neural decoders to distinguish between speech perception and silence. We trained a linear support vector classifier (SVC) and a linear discriminant analysis (LDA), and conducted post-hoc analysis using the Shapley additive explanations (SHAP) technique to identify the spatiotemporal patterns contributing to the neural decoder’s performance. We utilized a public fNIRS dataset, which comprises recordings from eight adults during the auditory perception of speech and silence. Our results indicate that features from oxyhemoglobin (HbO) and deoxyhemoglobin (HbR) are relevant and that the inferior frontal gyrus (IFG) and Wernicke’s area are key for differentiating speech perception from silence, which aligns with established neurophysiological processes. Temporally, we observed a subtle increase in feature relevance at the stimulus onset (t=0 s) and around 6-10 s across subjects, which may be related to the initial dip and the peak of the hemodynamic response. These results suggest that studies could use key spatiotemporal fNIRS features to improve speech decoding performance.
 
@@ -92,6 +92,20 @@ The data used is publicly available from the study ***"The use of broad vs restr
 #### LDA
 
 ![Results of the LDA](https://github.com/sposso/Spatial-and-Temporal-Analysis-of-the-fNIRS-based-Decoding-Models-for-Speech-Perception/blob/main/Figures/count_times_grid_lda_shap.png)
+
+
+### Averaged SHAP-based spatiotemporal feature relevance across all subjects for linear SVC 
+Based on the SHAP analyses for both SVC and LDA models (Fig. \ref{fig:spatio_temporal}), we averaged the SHAP values of all spatiotemporal features, which also includes the corresponding standard deviations.
+
+![Results of the SVC_all](https://github.com/sposso/Spatial-and-Temporal-Analysis-of-the-fNIRS-based-Decoding-Models-for-Speech-Perception/blob/main/Figures/all_subjects_brain_area_counts_mean_std_shap.png)
+
+![Results of the SVC_all_time](https://github.com/sposso/Spatial-and-Temporal-Analysis-of-the-fNIRS-based-Decoding-Models-for-Speech-Perception/blob/main/Figures/all_subjects_count_times_mean_std_shap.png)
+
+
+
+
+
+
 
 
 
