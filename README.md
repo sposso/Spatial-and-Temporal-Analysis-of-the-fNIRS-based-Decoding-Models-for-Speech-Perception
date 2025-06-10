@@ -11,8 +11,8 @@ The data used is publicly available from the study ***"The use of broad vs restr
 
 
 ## Explanation of the repository's scripts
-
-1. **train_shap.py** :  Contains functions to train Linear SVC and LDA models, and compute SHAP values for the test set samples.
+0. **Audio_data.py** : Contains a function to load the fNIRS DATA.[Here](https://github.com/sposso/fNIRS-preprocessing-guide), you can find a detailed tutorial on the implementation and the dataset. 
+1. **train_shap.py** :  Contains a function to train Linear SVC and LDA models, and compute SHAP values for the test set samples.
 
    <ins>Key points to consider</ins> :
    
