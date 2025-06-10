@@ -58,6 +58,29 @@ The data used is publicly available from the study ***"The use of broad vs restr
 | **LDA** | 0.79 ± 0.17 | 0.84 ± 0.16 | 0.63 ± 0.11 | 0.58 ± 0.07 | 0.94 ± 0.07 | 0.64 ± 0.10 | 0.73 ± 0.16 | 0.67 ± 0.16 |
 
 ### Subject-wise relevant spatiotemporal features identified by SHAP for Linear SVC and LDA
+#### Relevant brain areas for all subjects according to the SHAP technique 
+
+##### SVM 
+
+![Results of the SVC](https://github.com/sposso/Spatial-and-Temporal-Analysis-of-the-fNIRS-based-Decoding-Models-for-Speech-Perception/blob/main/Figures/brain_area_counts_grid_shap.png)
+
+##### LDA 
+
+![Results of the LDA](https://github.com/sposso/Spatial-and-Temporal-Analysis-of-the-fNIRS-based-Decoding-Models-for-Speech-Perception/blob/main/Figures/brain_area_counts_grid_lda_shap.png)
+
+#### Relevant time points for all subjects according to the SHAP technique 
+
+##### SVM 
+
+![Results of the SVC](https://github.com/sposso/Spatial-and-Temporal-Analysis-of-the-fNIRS-based-Decoding-Models-for-Speech-Perception/blob/main/Figures/count_times_grid_shap.png)
+
+
+#### LDA
+
+![Results of the LDA](https://github.com/sposso/Spatial-and-Temporal-Analysis-of-the-fNIRS-based-Decoding-Models-for-Speech-Perception/blob/main/Figures/count_times_grid_lda_shap.png)
+
+
+
 
 
 
