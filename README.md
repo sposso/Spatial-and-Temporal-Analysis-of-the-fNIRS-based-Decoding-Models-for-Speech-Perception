@@ -58,6 +58,11 @@ The data used is publicly available from the study ***"The use of broad vs restr
 | **LDA** | 0.79 ± 0.17 | 0.84 ± 0.16 | 0.63 ± 0.11 | 0.58 ± 0.07 | 0.94 ± 0.07 | 0.64 ± 0.10 | 0.73 ± 0.16 | 0.67 ± 0.16 |
 
 ### Subject-wise relevant spatiotemporal features identified by SHAP for Linear SVC and LDA
+
+#### Dictionary to understand the brain regions referred to in the graphs:
+**<ins>Au_A_R and Au_A_L</ins>** = Right and left auditory A region that  is located in the rostral aspect of the superior temporal gyrus (also referred to as Heschl’s gyrus). This is responsible for transforming basic acoustic features into more complex variations
+
+
 #### Relevant brain areas for all subjects according to the SHAP technique 
 
 ##### SVM 
