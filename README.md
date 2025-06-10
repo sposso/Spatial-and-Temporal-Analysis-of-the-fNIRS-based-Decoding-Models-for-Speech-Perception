@@ -60,8 +60,13 @@ The data used is publicly available from the study ***"The use of broad vs restr
 ### Subject-wise relevant spatiotemporal features identified by SHAP for Linear SVC and LDA
 
 #### Dictionary to understand the brain regions referred to in the graphs:
-**<ins>Au_A_R and Au_A_L</ins>** = Right and left auditory A region that  is located in the rostral aspect of the superior temporal gyrus (also referred to as Heschl’s gyrus). This is responsible for transforming basic acoustic features into more complex variations
+**<ins>Au_A_R and Au_A_L</ins>** = Right and left auditory A region that  is located in the rostral aspect of the superior temporal gyrus (also referred to as Heschl’s gyrus). This region is responsible for transforming basic acoustic features into more complex variations. 
 
+**<ins>Au_B_R and Au_B_L</ins>** = Right and left auditory B region that  is located in the caudal aspect of the superior temporal gyrus ( Wernicke’s area). This area is involved in phonological analysis and supports working memory processes during language tasks 
+
+**<ins>IFG</ins>** = Left inferior frontal gyrus, which houses Broca’s area, and is involved in phonological analysis and supports working memory processes during language tasks.
+**<ins>V_A</ins>** = Visual A region that includes Cuneus and superior occipital gyrus. 
+**<ins>V_B</ins>** = Visual B region that includes  middle occipital gyrus. 
 
 #### Relevant brain areas for all subjects according to the SHAP technique 
 
