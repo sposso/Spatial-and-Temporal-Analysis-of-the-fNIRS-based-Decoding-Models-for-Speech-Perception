@@ -14,7 +14,7 @@ The data used is publicly available from the study ***"The use of broad vs restr
 
 1. **train_shap.py** :  Contains functions to train Linear SVC and LDA models, and compute SHAP values for the test set samples.
 
-   < Key points to consider>:
+   <ins>Key points to consider</ins> :
    
     - To address class imbalance (18 trials for the auditory-only condition and 10 for the resting condition), we applied the Adaptive Synthetic (ADASYN) sampling method
     - Following the ML methodology outlined [here](https://doi.org/10.3389/fnrgo.2023.994969)  for correctly evaluating models applied to fNIRS data, we tested regularization parameter          values for the SVC: 0.001, 0.01, 0.1, and 1, with a maximum of 250,000 iterations to ensure convergence
