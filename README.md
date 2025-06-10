@@ -105,5 +105,3 @@ The data used is publicly available from the study ***"The use of broad vs restr
 
 
 
-
-
