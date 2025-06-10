@@ -27,13 +27,14 @@ The data used is publicly available from the study ***"The use of broad vs restr
      feature contributes to the prediction.
    
 3. **results_shap.py** : Loads the data and calls the training function from train_shap.py to train the models. It also saves the performance of the models and their respective SHAP values.  It also performs statistical tests to assess: (1) Whether each model performs significantly above chance level (p < 0.05) and (2) hether there are performance differences between models using one-way ANOVA. 
-    Key points to consider:
+
+   <ins>Key points to consider</ins>:
    - The SHAP VALUES are saved in a .npz files, one per model. T
    - Each .npz file contains 5 sets of SHAP values, corresponding to the 5 outer folds used in cross-validation (i.e., five models are trained and evaluated independently). 
    
-4. **graphs.py** : Analyzes the relevance of spatiotemporal features to model performance using SHAP values.
+5. **graphs.py** : Analyzes the relevance of spatiotemporal features to model performance using SHAP values.
 
-    Key points to consider:
+    <ins>Key points to consider</ins>:
 
     - Loads the .npz files containing SHAP values saved during training. Each SHAP array has shape (num_instances × num_features), where num_features = channels × time points.
 
