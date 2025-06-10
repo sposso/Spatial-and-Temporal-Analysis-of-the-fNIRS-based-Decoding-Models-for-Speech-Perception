@@ -48,6 +48,21 @@ The data used is publicly available from the study ***"The use of broad vs restr
     - Features derived from HbO and HbR signals are analyzed separately to provide a more detailed assessment of their contributions to decoding performance.
 
 
+## Results
+
+### Decoding Performances
+
+| Method | sub.0      | sub.1      | sub.2      | sub.3      | sub.4      | sub.5      | sub.6      | sub.7      |
+|--------|------------|------------|------------|------------|------------|------------|------------|------------|
+| **SVC** | 0.76 ± 0.17 | 0.90 ± 0.12 | 0.63 ± 0.16 | 0.63 ± 0.16 | 0.98 ± 0.05 | 0.72 ± 0.07 | 0.85 ± 0.20 | 0.63 ± 0.14 |
+| **LDA** | 0.79 ± 0.17 | 0.84 ± 0.16 | 0.63 ± 0.11 | 0.58 ± 0.07 | 0.94 ± 0.07 | 0.64 ± 0.10 | 0.73 ± 0.16 | 0.67 ± 0.16 |
+
+### Subject-wise relevant spatiotemporal features identified by SHAP for Linear SVC and LDA
+
+
+
+
+
 
 
 
